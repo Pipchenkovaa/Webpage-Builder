@@ -1,4 +1,4 @@
-import {col, css, row} from '../scripts/utilus.js'
+import {col, css, row} from "../scripts/utilus.js"
 
 class Block {
 	constructor (value, options) {
