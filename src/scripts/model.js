@@ -28,7 +28,7 @@ export const model = [
 				'padding-top': '10px',
 			}
 		}),
-	new ImageBlock('../src/images/js_wallpaper.jpeg',
+	new ImageBlock('src/images/js_wallpaper.jpeg',
 		{
 			styles: {
 				padding: '10px',
