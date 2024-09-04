@@ -1,4 +1,4 @@
-import { TextBlock, ImageBlock, TitleBlock, ColumnsBlock } from "./classes/block.js"
+import { TextBlock, ImageBlock, TitleBlock, ColumnsBlock } from "./classes/block.js" 
 
 export const model = [
 	new TitleBlock('Create your own website using JavaScript', 
