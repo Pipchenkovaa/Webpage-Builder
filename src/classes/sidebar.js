@@ -1,5 +1,5 @@
-import { block } from "../utilus.js"
-import { TextBlock, TitleBlock } from "./block.js"
+import { block } from "../scripts/utilus.js"
+import { TextBlock, TitleBlock } from "../classes/block.js"
 
 export class Sidebar {
 	constructor(selector, updateFunction) {
