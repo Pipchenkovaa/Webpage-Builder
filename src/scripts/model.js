@@ -16,7 +16,7 @@ export const model = [
 				'text-transform': 'uppercase'
 			}
 		}),
-	new TextBlock('Разметка данного сайта полностью написана на JavaScript', 
+	new TextBlock('The markup of this website is completely written in JavaScript',
 		{
 			tag: 'p',
 			styles: {
@@ -43,17 +43,19 @@ export const model = [
 	),
 	new ColumnsBlock(
 		[
-			'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad fugit, consequatur adipisci sit itaque et?',
-			'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad fugit, consequatur adipisci sit itaque et?',
-			'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus perferendis ullam architecto itaque facere sint aliquam possimus soluta ab consequuntur!'
-		], 
+			'Call Stack: <br> The stack is a data structure that follows the LIFO (last-in, first-out) principle. This means that the item that was most recently added to the stack will be the first to be removed. This is why it is also known as the "last-in first-out" or "LIFO" structure.',
+			'Are you interested in learning JavaScript? Creating a simple calculator can help you evaluate its capabilities and gain a basic understanding of the JavaScript syntax and how it can be used to create interactive web applications.',
+			'OOP: <br> Object-oriented programming is a programming paradigm that is based on the concepts of classes and objects. This approach allows programmers to organize their code into objects, which are usually referred to as classes.'
+		],
 		{
 			tag: 'p',
 			styles: {
-				display: 'flex',
+				display: 'grid',
+				'grid-auto-flow': 'column',
+				'grid-column-gap': '25px',
 				color: '#83531d',
 				'font-size': '15px',
-				'padding': '0 50px'
+				'padding-inline': '40px',
 			}
 		}
 	)
