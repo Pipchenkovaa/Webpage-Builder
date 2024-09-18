@@ -683,5 +683,6 @@ video {
   z-index: 100;
   padding: 10px;
   box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+  background-color: #fff;
   overflow-y: auto;
 }

@@ -1,7 +1,7 @@
 import { TextBlock, ImageBlock, TitleBlock, ColumnsBlock } from "../classes/block.js"
 
 export const model = [
-	new TitleBlock('Create your own website using JavaScript', 
+	new TitleBlock('Create your own webpage using JavaScript', 
 		{
 			tag: 'h1',
 			styles: {
@@ -16,7 +16,7 @@ export const model = [
 				'text-transform': 'uppercase'
 			}
 		}),
-	new TextBlock('The markup of this website is completely written in JavaScript',
+	new TextBlock('The markup of this webpage is completely written in JavaScript!',
 		{
 			tag: 'p',
 			styles: {
